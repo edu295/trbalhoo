@@ -5,6 +5,7 @@
 
 int main() {
 
+    
     // imprimindo cabecalho bonito do jogo
     printf("\n\n");
     printf("          P  /_\\  P                              \n");
@@ -74,11 +75,15 @@ int main() {
             printf("\nSeu chute foi menor do que o número secreto!\n\n");
         }
 
+
+        
         // calcula a quantidade de pontos
         double pontosperdidos = abs(chute - numerosecreto) / 2.0;
         pontos = pontos - pontosperdidos;
     }
 
+
+    
     // imprimindo mensagem de vitoria ou derrota
     printf("\n");
     if(acertou) {
@@ -93,7 +98,7 @@ int main() {
         printf("OOOO  OOOOOOOOOOOOOOOOOOOOOOOOO  OOOO  \n");
         printf(" OOOO  OOOOOOOOOOOOOOOOOOOOOOO  OOOO   \n");
         printf("  OOOO   OOOOOOOOOOOOOOOOOOOO  OOOO    \n");
-        printf("    OOOOO   OOOOOOOOOOOOOOO   OOOO     \n");
+        printf("    OOOOO   OOOOOOOOOOOOO   OOOO     \n");
         printf("      OOOOOO   OOOOOOOOO   OOOOOO      \n");
         printf("         OOOOOO         OOOOOO         \n");
         printf("             OOOOOOOOOOOO              \n");
